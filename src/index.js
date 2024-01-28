@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import Main from './source/com.hpmv.main/main';
 import MapView from './source/com.hpmv.main/mapView';

@@ -1,15 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Main from '../../staging_source/com.hpmv.static.pages/main'
 
 function main () {
   return (
    <div>
-    <div>
-      <Link to="/mapView">Map View</Link>
-    </div>
-    <div>
-      <Link to="/listView">List View</Link>
-    </div>
+    <Main />
    </div>
   )
 }
