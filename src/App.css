@@ -26,3 +26,12 @@
 a{
   text-decoration: none;
 }
+
+.mobile-only{
+  display: none;
+}
+@media screen and (max-width: 600px){
+  .mobile-only{
+      display: block;
+  }
+}
